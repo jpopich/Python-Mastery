@@ -1,1 +1,13 @@
 -These notes will not be exhaustive and will be unique to my understanding.
+
+-----CHAPTER 1: GETTING STARTED-----
+- A lot of this inital chapter was skipped for helping setup a coding environment, mine is already set.
+
+In terminal:
+python - check version
+
+-----TRY IT YOURSELF-----
+1-1 - Explore the python home page.
+1-2 - Explore typos.
+1-3 - 1. A brazilian jiujitsu AI agent. 2. A parking lot manager. 3. A indie game.
+
