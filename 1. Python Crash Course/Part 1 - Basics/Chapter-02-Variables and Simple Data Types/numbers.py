@@ -13,7 +13,7 @@ print("\n")
 print('Same as math.pow')
 print(3**2)
 print(3**3)
-print(10**6)
+print(10**5)
 
 print("\n")
 print('Order of Operations:')
