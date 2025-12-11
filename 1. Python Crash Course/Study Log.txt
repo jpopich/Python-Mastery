@@ -23,3 +23,26 @@ String.upper() - uppercase all chars
 String.lower() - lowercase all chars
 String.rStrip() - removes whitespace on the right side of a string
 
+for integers:
+str() - turns an int into the string representation of itself
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
