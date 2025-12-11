@@ -11,3 +11,15 @@ python - check version
 1-2 - Explore typos.
 1-3 - 1. A brazilian jiujitsu AI agent. 2. A parking lot manager. 3. A indie game.
 
+
+
+
+
+-----CHAPTER 2: VARIABLES AND SIMPLE DATA TYPES-----
+-The vast majority of these beginning chapters will be skipped as its super introductory.
+
+String.title() - uppercase first letter
+String.upper() - uppercase all chars
+String.lower() - lowercase all chars
+String.rStrip() - removes whitespace on the right side of a string
+
