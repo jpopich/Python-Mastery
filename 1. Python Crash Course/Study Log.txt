@@ -12,9 +12,6 @@ python - check version
 1-3 - 1. A brazilian jiujitsu AI agent. 2. A parking lot manager. 3. A indie game.
 
 
-
-
-
 -----CHAPTER 2: VARIABLES AND SIMPLE DATA TYPES-----
 -The vast majority of these beginning chapters will be skipped as its super introductory.
 
@@ -22,4 +19,79 @@ String.title() - uppercase first letter
 String.upper() - uppercase all chars
 String.lower() - lowercase all chars
 String.rStrip() - removes whitespace on the right side of a string
+
+
+-----CHAPTER 3: INTRODUCING LISTS-----
+names = ['josh', 'cory']
+names.append('jacob') #adds element to end of list
+names.insert(0, 'oscar') #adds oscar to index 0
+del names[0] #removes josh from list, or technically oscar since we added him in above line
+poppedItem = names.pop() # removes item from end of list and stores it in var
+	     names.pop(0) # removes specific index
+names.remove('josh') #remove item by value
+
+cars.sort() #alphabetically order !!!! the list is forever changed, never to be reverted unless saved prior to sort()
+cars.sort(reverse=True) #reverse alphabetical ordering
+
+print(cars.sorted()) # temp sort, cars ordering remains, but you can present it in a ordered way
+	#cars.sorted(reverse=True) works fine
+cars.reverse() # reverse the original ordering of the list PERMA - but just do it again to get original back
+
+cars.len() # get length of a list, 4 items in a list means length of 4
+
+
+-----CHAPTER 4: WORKING WITH LISTS-----
+For each loop over elemsnts of a list.
+range() - range(inclusive, exclusive)
+min() - returns minimum of list
+max() - returns maximum of list
+sum() - sums list total
+
+List comprehension template: 
+arrVar = [expression << forLoop]
+variableToStoreList = expression we want to feed the loop into.
+example: squares = [values**2 for value in range(2, 11)]
+
+Slicing
+list[inclusive:exclusive]
+print(players[0:4]) -> only players at 0, 1, 2, and 3 are printed.
+list[:3] - begins at first index up to 3 exclusive
+list[3:] - begins at 3 inclusive to final index
+list[-3:] - last three elements of list
+list[-6:-1:2] - last six elements of list skipping by 2
+
+
+Copying a list:
+newList = oldList[:] - start at first and end at last index
+newList = oldList - they are both referencing same list in memory
+
+Tuples
+newTuple = ("john", "juan")
+newTuple = ("john",) # Kind of irrelevant
+
+Tuple reassignment:
+NO
+dimensions = (200, 50)
+dimensions[0] = 400
+dimensions[1] = 100
+
+YES
+dimensions = (200, 50)
+dimensions = (400, 100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
