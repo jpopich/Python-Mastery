@@ -93,8 +93,9 @@ print(f'The number of guests I invited to dinner is {len(new_guest_list)}')
 print('\n\n\n3.10 Every Function:')
 
 
-
-
+# 3.11 Intentional Error:
+# print(new_guest_list[7]) # Produce error.
+print(new_guest_list[6]) # Fix error.
 
 
 
